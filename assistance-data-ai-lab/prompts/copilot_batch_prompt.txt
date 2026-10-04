@@ -1,0 +1,63 @@
+You support the dispatchers of a roadside and travel assistance service.
+Classify each incoming member message and write a short handover summary.
+Follow these guidelines exactly:
+
+## Category (exactly one)
+
+| Category | Use when |
+|---|---|
+| Battery | Vehicle will not start, starter only clicks, lights left on, battery flat |
+| Tyre | Puncture, flat or burst tyre, pressure loss, and the car is otherwise drivable |
+| Lockout | Keys locked inside the vehicle or lost |
+| Towing | Vehicle in Germany cannot be driven any more and must go to a workshop (accident damage, broken gearbox, bent wheel) |
+| Breakdown | Any other vehicle failure in Germany: engine problems, loss of power, electric car out of charge, overheating, fuel smell |
+| Medical Assistance Abroad | Illness or injury outside Germany |
+| Travel Assistance | Any non-medical problem outside Germany: documents, accommodation, onward travel, vehicle problems abroad |
+
+## Urgency
+
+**High** when at least one of these applies:
+
+- The vehicle stands on a motorway, hard shoulder, in a tunnel, or on a country road with no safe place to stop
+- Children or elderly people are with the member, or a person is locked inside the vehicle
+- It is getting dark
+- A medical problem abroad needs a doctor or a hospital
+
+Otherwise **Normal**. A member who has already reached a safe place (exit, car park, home) is Normal unless another rule applies.
+
+## Summary for the dispatcher
+
+- English, at most 40 words
+- Must contain the location, the vehicle problem and anything that makes the case urgent
+- Must not add facts that are not in the member's message (no invented places, numbers or diagnoses)
+
+Answer ONLY with CSV, no explanations, using this header:
+case_id,category,urgency,summary
+Put the summary in double quotes. Use the category names exactly as written above.
+
+Messages:
+T01: My car won't start this morning, the starter only clicks. I'm at home in the driveway.
+T02: Flat tyre on the A9 near Ingolstadt, we are on the hard shoulder with two small children in the car.
+T03: Keys locked inside the car at the supermarket car park in Passau. No hurry, my partner is bringing the spare key in two hours if you cannot come.
+T04: Hit a deer on a country road outside Freyung, front of the car is smashed and the radiator is leaking. Car cannot be driven.
+T05: Engine warning light came on and the car lost power on the A3 near Regensburg, I managed to stop at the next exit. I am alone and fine.
+T06: Mein Auto springt nicht an, die Batterie ist wohl leer. Ich stehe zu Hause in der Garage.
+T07: Reifen geplatzt auf der A8 Richtung Salzburg, wir stehen auf dem Standstreifen, meine Mutter (84) ist dabei.
+T08: My father collapsed in our hotel in Rimini and was taken to hospital. The doctors only speak Italian. What do we do?
+T09: Our camper van broke down in Lyon. It will be in the workshop for five days. We need a hotel and a way to continue to Spain.
+T10: Electric car shows 0 km range, I am stuck on the B12 between Passau and Freyung. It is getting dark.
+T11: Strong smell of petrol from under the car, I stopped in a car park in Deggendorf and turned the engine off.
+T12: I lost my car key while hiking near the Koenigssee. The car is at the main car park.
+T13: Gearbox makes grinding noises and no gear engages any more. Car is at the office car park in Munich, it has to go to a workshop.
+T14: Passport and wallet stolen in Zagreb, flight home is tomorrow. Need help with documents and money.
+T15: Motorrad springt nicht an, nur ein Klicken. Stehe an einer Raststaette an der A92.
+T16: Tyre pressure warning, the rear right tyre is slowly losing air. I am at home, can someone check it today?
+T17: My daughter broke her arm skiing in Ischgl, Austria. She is in the clinic and we want to know if she can be brought home.
+T18: Car stopped in the middle of the tunnel on the A7, hazard lights are on, I cannot restart it.
+T19: The ferry from Ancona to Patras was cancelled because of a storm. We are four people with a car and need another connection.
+T20: Child locked inside the car in the sun at a petrol station in Straubing, the key is inside too!
+T21: After a minor collision in Landshut both front tyres are damaged and the wheel is bent. The car cannot be driven.
+T22: Lights were left on the whole night, now the car is dead. It is parked in front of my flat in Vilshofen.
+T23: Wir haben Durchfall und hohes Fieber seit zwei Tagen in Antalya, das Hotel kennt keinen Arzt. Wir brauchen einen deutschsprachigen Arzt.
+T24: Coolant temperature in the red, steam from the bonnet. I am on a country road near Zwiesel with my two kids.
+T25: Rental car in Mallorca will not start, the rental office is closed until Monday. We need to get to the airport on Sunday.

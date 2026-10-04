@@ -1,0 +1,26 @@
+case_id,category,urgency,summary
+T01,Battery,Normal,"My car won't start this morning, the starter only clicks. I'm at home in the driveway."
+T02,Tyre,High,"Flat tyre on the A9 near Ingolstadt, we are on the hard shoulder with two small children in the car."
+T03,Lockout,Normal,"Keys locked inside the car at the supermarket car park in Passau. No hurry, my partner is bringing the spare key in two hours if you cannot come."
+T04,Towing,High,"Hit a deer on a country road outside Freyung, front of the car is smashed and the radiator is leaking. Car cannot be driven."
+T05,Breakdown,High,"Engine warning light came on and the car lost power on the A3 near Regensburg, I managed to stop at the next exit. I am alone and fine."
+T06,Battery,Normal,"Mein Auto springt nicht an, die Batterie ist wohl leer. Ich stehe zu Hause in der Garage."
+T07,Tyre,High,"Reifen geplatzt auf der A8 Richtung Salzburg, wir stehen auf dem Standstreifen, meine Mutter (84) ist dabei."
+T08,Medical Assistance Abroad,High,My father collapsed in our hotel in Rimini and was taken to hospital. The doctors only speak Italian. What do we do?
+T09,Medical Assistance Abroad,High,Our camper van broke down in Lyon. It will be in the workshop for five days. We need a hotel and a way to continue to Spain.
+T10,Breakdown,High,"Electric car shows 0 km range, I am stuck on the B12 between Passau and Freyung. It is getting dark."
+T11,Breakdown,Normal,"Strong smell of petrol from under the car, I stopped in a car park in Deggendorf and turned the engine off."
+T12,Lockout,Normal,I lost my car key while hiking near the Koenigssee. The car is at the main car park.
+T13,Towing,Normal,"Gearbox makes grinding noises and no gear engages any more. Car is at the office car park in Munich, it has to go to a workshop."
+T14,Travel Assistance,Normal,"Passport and wallet stolen in Zagreb, flight home is tomorrow. Need help with documents and money."
+T15,Battery,High,"Motorrad springt nicht an, nur ein Klicken. Stehe an einer Raststaette an der A92."
+T16,Tyre,Normal,"Tyre pressure warning, the rear right tyre is slowly losing air. I am at home, can someone check it today?"
+T17,Medical Assistance Abroad,High,"My daughter broke her arm skiing in Ischgl, Austria. She is in the clinic and we want to know if she can be brought home."
+T18,Breakdown,High,"Car stopped in the middle of the tunnel on the A7, hazard lights are on, I cannot restart it."
+T19,Travel Assistance,Normal,The ferry from Ancona to Patras was cancelled because of a storm. We are four people with a car and need another connection.
+T20,Lockout,High,"Child locked inside the car in the sun at a petrol station in Straubing, the key is inside too!"
+T21,Towing,Normal,After a minor collision in Landshut both front tyres are damaged and the wheel is bent. The car cannot be driven.
+T22,Battery,Normal,"Lights were left on the whole night, now the car is dead. It is parked in front of my flat in Vilshofen."
+T23,Medical Assistance Abroad,High,"Wir haben Durchfall und hohes Fieber seit zwei Tagen in Antalya, das Hotel kennt keinen Arzt. Wir brauchen einen deutschsprachigen Arzt."
+T24,Breakdown,High,"Coolant temperature in the red, steam from the bonnet. I am on a country road near Zwiesel with my two kids."
+T25,Travel Assistance,Normal,"Rental car in Mallorca will not start, the rental office is closed until Monday. We need to get to the airport on Sunday."

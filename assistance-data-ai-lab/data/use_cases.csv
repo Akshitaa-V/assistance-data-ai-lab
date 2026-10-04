@@ -1,0 +1,11 @@
+id,title,process,users,tool,value,effort,data_ready,risk,success_measure
+UC01,Dispatcher handover summary,Case intake,Dispatchers,Microsoft 365 Copilot,5,2,4,3,"Fact coverage >= 90% and no invented facts on the intake test set"
+UC02,Categorise app and web case submissions,Case intake,Dispatchers,Copilot Studio / Python,5,3,4,3,"Category accuracy >= 90% and no missed urgent case"
+UC03,Weekly KPI commentary draft,Reporting,Team leads,Copilot in Power BI,4,1,5,1,"Draft needs fewer than 3 corrections; numbers match the report"
+UC04,Meeting notes to action items,Internal meetings,All teams,Copilot in Teams,3,1,5,2,"Action items complete when checked against the recording"
+UC05,Reply drafts for travel assistance emails,Member communication,Travel assistance agents,Copilot in Outlook,4,2,4,3,"Agent edits fewer than 20% of the draft; tone checked by a team lead"
+UC06,Data preparation in Excel with Copilot,Reporting,Data analysts,Copilot in Excel,3,1,4,1,"Formulas checked against a manual calculation on 3 sheets"
+UC07,SLA early warning per region,Operations steering,Operations managers,Power BI alerts + Power Automate,5,3,5,1,"Alert fires within one day when weekly SLA drops by 5 points"
+UC08,Medical case triage support abroad,Medical assistance,Medical assistance staff,Microsoft 365 Copilot,5,4,2,5,"Only after data protection and medical review"
+UC09,Knowledge base answers for service agents,Agent support,Contact centre agents,Copilot with SharePoint,4,3,3,2,"Correct source cited in >= 95% of test questions"
+UC10,Themes from survey comments,Member experience,Member experience team,Python / Copilot in Excel,3,2,3,2,"Themes agree with a manual sample of 100 comments"

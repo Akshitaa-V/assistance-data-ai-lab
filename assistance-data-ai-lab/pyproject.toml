@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assistance-data-ai-lab"
+version = "1.0.0"
+description = "KPI reporting, Excel and Power BI outputs, a Data & AI use-case backlog and an evaluation harness for AI assistants in a mobility assistance service"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Akshitaa Vijayakumar" }]
+license = { text = "MIT" }
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+adl = "adl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
